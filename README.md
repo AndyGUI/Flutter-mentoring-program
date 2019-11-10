@@ -1,38 +1,56 @@
-# Audience
-Front-end or Mobile Engineers, D2-D3+
+# Module 1
+## Intro in Flutter
 
-# Necessary knowledge
-- Proficiency with at least one of the languages:
-    JavaScript, Dart, Java, Kotlin, Swift;
-- English level A2 and higher
+## What is Flutter
+ - https://www.youtube.com/watch?time_continue=7&v=5VbAwhBBHsg&feature=emb_logo
+ - https://flutter.dev/docs/resources/faq
+ - https://github.com/flutter/flutter
+ - https://flutter.dev/
+ 
+## Flutter internals and its comparison with other cross-platform solutions
+ - (*) https://www.didierboelens.com/2019/09/flutter-internals/
+ - https://www.youtube.com/watch?v=l-YO9CmaSUM
+ - https://flutter.dev/docs/resources/technical-overview
+ - https://www.youtube.com/watch?v=QJX6RNNpGdw
+ - (*) https://www.youtube.com/watch?v=dkyY9WCGMi0
+ - (*) https://www.youtube.com/watch?v=UUfXWzp0-DU
+ - (*) https://github.com/2d-inc/HistoryOfEverything
+ 
+## Run modes
+- https://flutter.dev/docs/testing/build-modes
+ 
+## What is Dart and why…
+ - https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf
+ - https://dart.dev/guides/language/spec
+ - https://www.youtube.com/watch?v=iVYpeEd3Jes
+ - https://dart.dev/guides/language/language-tour
+ - https://github.com/dart-lang/sdk/blob/master/CHANGELOG.md#240---2019-06-27
+ 
+## Current stage of the framework and its roadmap
+ - https://github.com/flutter/flutter/wiki/Roadmap
 
-## Course Goal
-Prepare mentees for production activities on projects
-using the Flutter framework for building mobile applications.
-During the program:
-- Mentee schedules meetings, proposes agenda,
-    suggests cases for discussions with Mentor.
-- Mentee spends enough time to complete the topics on time
-    (at least 6 hours a week) and does all mandatory home tasks
-    for the program to be completed.
-- Both Mentor and Mentee are to give their feedback
-    during the program and after its completion.
-
-## Description of the framework.
-
-Flutter is an app SDK for building high-performance,
-high-fidelity apps for iOS, Android, and web (tech preview) from a single codebase.
-
-##  What are some advantages of Flutter? It helps you:
-- Be highly productive
-- Develop for iOS and Android from a single codebase
-- Do more with less code, even on a single OS,
-    with a modern, expressive language and a declarative approach
-- Prototype and iterate easily
-- Experiment by changing code and reloading as your app runs (with hot reload)
-- Fix crashes and continue debugging from where the app left off
-- Create beautiful, highly customized user experiences
-- Benefit from a rich set of Material Design and Cupertino
-    (iOS-flavor) widgets built using Flutter’s own framework
-- Realize custom, beautiful, brand-driven designs,
-    without the limitations of OEM widget sets
+## Environment (SDK, IDE, emulator/simulator)
+ - https://flutter.dev/docs/get-started/install
+    AS                  => https://developer.android.com/studio
+    AS and console tabs => https://flutter.dev/docs/get-started/test-drive?tab=terminal
+    Emulator            => https://developer.android.com/studio/run/managing-avds
+    https://www.youtube.com/watch?v=1ukSR1GRtMU
+    
+## Flutter project structure
+ - https://dev.to/jay_tillu/flutter-project-structure-1lhe
+ - https://www.youtube.com/watch?v=oE4Q8da2W6M
+ - https://www.youtube.com/watch?v=mzzWciSRgBs
+ 
+## Debugging, profiling, troubleshooting…
+ - https://flutter.dev/docs/testing/debugging
+ - https://flutter.dev/docs/perf/rendering/ui-performance
+ - https://dart.dev/tools/pub/dependencies
+ - Inspector => https://www.youtube.com/watch?v=bARWK0cuC5E
+ - Outline   => https://www.youtube.com/watch?v=RdPkFd6_fTA
+ 
+## Flutter for another platform developers
+ - Android - https://flutter.dev/docs/get-started/flutter-for/android-devs 
+ - iOS     - https://flutter.dev/docs/get-started/flutter-for/ios-devs
+ - RN      - https://flutter.dev/docs/get-started/flutter-for/react-native-devs
+ - WEB     - https://flutter.dev/docs/get-started/flutter-for/web-devs 
+ - Xamarin - https://flutter.dev/docs/get-started/flutter-for/xamarin-forms-devs
