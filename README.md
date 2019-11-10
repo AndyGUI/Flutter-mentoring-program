@@ -45,8 +45,9 @@
  - https://flutter.dev/docs/testing/debugging
  - https://flutter.dev/docs/perf/rendering/ui-performance
  - https://dart.dev/tools/pub/dependencies
- - Inspector => https://www.youtube.com/watch?v=bARWK0cuC5E
- - Outline   => https://www.youtube.com/watch?v=RdPkFd6_fTA
+ - Inspector        =>  https://flutter.dev/docs/development/tools/devtools/inspector
+ - Inspector more   => https://www.youtube.com/watch?v=bARWK0cuC5E
+ - Outline          => https://www.youtube.com/watch?v=RdPkFd6_fTA
  
 ## Flutter for another platform developers
  - Android - https://flutter.dev/docs/get-started/flutter-for/android-devs 
