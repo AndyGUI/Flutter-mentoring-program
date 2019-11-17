@@ -1,38 +1,37 @@
-# Audience
-Front-end or Mobile Engineers, D2-D3+
+# Module 2
+## Common application structure and basic widgets
 
-# Necessary knowledge
-- Proficiency with at least one of the languages:
-    JavaScript, Dart, Java, Kotlin, Swift;
-- English level A2 and higher
-
-## Course Goal
-Prepare mentees for production activities on projects
-using the Flutter framework for building mobile applications.
-During the program:
-- Mentee schedules meetings, proposes agenda,
-    suggests cases for discussions with Mentor.
-- Mentee spends enough time to complete the topics on time
-    (at least 6 hours a week) and does all mandatory home tasks
-    for the program to be completed.
-- Both Mentor and Mentee are to give their feedback
-    during the program and after its completion.
-
-## Description of the framework.
-
-Flutter is an app SDK for building high-performance,
-high-fidelity apps for iOS, Android, and web (tech preview) from a single codebase.
-
-##  What are some advantages of Flutter? It helps you:
-- Be highly productive
-- Develop for iOS and Android from a single codebase
-- Do more with less code, even on a single OS,
-    with a modern, expressive language and a declarative approach
-- Prototype and iterate easily
-- Experiment by changing code and reloading as your app runs (with hot reload)
-- Fix crashes and continue debugging from where the app left off
-- Create beautiful, highly customized user experiences
-- Benefit from a rich set of Material Design and Cupertino
-    (iOS-flavor) widgets built using Flutter’s own framework
-- Realize custom, beautiful, brand-driven designs,
-    without the limitations of OEM widget sets
+#‘Hello, world’ on Flutter
+ - hello_world.dart
+ - (RU) https://flutter.su/tutorial/1-Flutter-pervoe-prilozhenie-Hello-World
+ 
+#Pub, Pubspec.yaml and many more
+ - https://flutter.dev/docs/development/packages-and-plugins/using-packages
+ - https://dart.dev/tools/pub/pubspec
+ - PUB - https://pub.dev/
+ 
+#Common layout widgets (Container, Row, Column, Stack, ListView) and 
+#common widgets (Text, Image, Icon, Button, TextField, RaisedButton and more),
+#common positioning and alignment widgets (Center, Align, Padding),
+#customization of Text and TextField widgets,
+#image and Icon in use.
+ - https://flutter.dev/docs/development/ui/widgets-intro#responding-to-widget-lifecycle-events
+ - https://flutter.dev/docs/development/ui/layout
+ - (Watch whole playlist) https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+ - https://flutter.dev/docs/development/ui/widgets/cupertino
+ - https://flutter.dev/docs/development/ui/widgets/material
+ - (*) https://medium.com/flutterpub/anatomy-of-material-buttons-in-flutter-first-part-40eb790979a6
+ - (*) https://medium.com/jlouage/flutter-boxdecoration-cheat-sheet-72cedaa1ba20
+ - (*) https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
+ 
+  
+#MaterialApp and Scaffold, CupertinoApp and CupertinoTabScaffold as the common case for the app
+ - (Material) https://flutter.dev/docs/development/ui/widgets/material
+ - (iOS) https://flutter.dev/docs/development/ui/widgets/cupertino
+ - https://medium.com/pslove/flutter-1-2-cupertino-app-cb4759013370
+ - https://medium.com/nusanet/flutter-cupertino-app-76c33768c242
+ 
+##Home task
+Build a screen used at least those widgets:
+Container, Center, Text, TextView, Icon, FloatingActionButton, ListView, Row,
+ListTile, EdgeInsets, BoxDecoration and more.
