@@ -21,7 +21,8 @@
  - https://dev.to/nitishk72/understanding-streams-in-flutter-dart-2pb8
  - https://stackoverflow.com/a/52123080
  - https://inducesmile.com/google-flutter/how-to-use-layoutbuilder-widget-in-flutter/
+ FutureBuilder, StreamBuilder(Builder, LayoutBuilder) 
  
  ##HOME TASK
  Read and watch all materials carefully and play with the code examples.
- On the next session will discuss material.
+ The next session will discuss the material.
