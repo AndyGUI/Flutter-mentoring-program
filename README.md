@@ -20,6 +20,7 @@
  - (Watch whole playlist) https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
  - https://flutter.dev/docs/development/ui/widgets/cupertino
  - https://flutter.dev/docs/development/ui/widgets/material
+ - ##! https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
  - (*) https://medium.com/flutterpub/anatomy-of-material-buttons-in-flutter-first-part-40eb790979a6
  - (*) https://medium.com/jlouage/flutter-boxdecoration-cheat-sheet-72cedaa1ba20
  - (*) https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754
