@@ -16,12 +16,10 @@ class PostService {
   }
 
   Future<List<Post>> getPosts() async {
-    // TODO apply convention!
+    final response = await http.get(_postsURL);
 
-    final res = await http.get(_postsURL);
-
-    if (res.statusCode == 200) {
-      List<dynamic> body = jsonDecode(res.body);
+    if (response.statusCode == 200) {
+      List<dynamic> body = jsonDecode(response.body);
 
       List<Post> posts = body
           .map(

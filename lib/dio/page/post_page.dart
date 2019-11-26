@@ -21,6 +21,7 @@ class TaskPage extends StatelessWidget {
                   .map(
                     (Task task) => ListTile(
                       leading: FadeInImage.assetNetwork(
+                        fadeInDuration: Duration(seconds: 2),
                         placeholder: 'assets/loading.gif',
                         image: 'https://picsum.photos/250?image=9',
                       ),
