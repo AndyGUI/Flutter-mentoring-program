@@ -15,7 +15,7 @@
  - https://www.youtube.com/watch?v=SxmYaqKyRfc
  - (!) https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple
  
- #Redux
+ # Redux
  - https://pub.dev/packages/flutter_redux
  - https://blog.brainsandbeards.com/ultimate-redux-guide-for-flutter-2c09675d8f5
   
