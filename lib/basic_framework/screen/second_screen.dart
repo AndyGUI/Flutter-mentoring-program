@@ -61,7 +61,7 @@ class _SecondScreenState extends State<SecondScreen> {
           children: <Widget>[
             FlatButton.icon(
               shape: RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(18.0),
+                  borderRadius: BorderRadius.circular(18.0),
                   side: BorderSide(color: Colors.red)),
               color: Colors.red,
               icon: Icon(Icons.add),
@@ -73,7 +73,7 @@ class _SecondScreenState extends State<SecondScreen> {
             ),
             FlatButton.icon(
               shape: RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(18.0),
+                  borderRadius: BorderRadius.circular(18.0),
                   side: BorderSide(color: Colors.red)),
               color: Colors.red,
               icon: Icon(Icons.close),

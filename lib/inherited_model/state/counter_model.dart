@@ -19,7 +19,7 @@ class CounterStateContainer extends StatefulWidget {
   }
 
   @override
-  CounterStateContainerState createState() => new CounterStateContainerState();
+  CounterStateContainerState createState() => CounterStateContainerState();
 }
 
 class CounterStateContainerState extends State<CounterStateContainer> {

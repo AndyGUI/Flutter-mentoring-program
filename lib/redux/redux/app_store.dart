@@ -9,5 +9,5 @@ class AppStore {
 
   AppStore({this.counter});
 
-  static initial() => new AppStore(counter: Counter(0));
+  static initial() => AppStore(counter: Counter(0));
 }

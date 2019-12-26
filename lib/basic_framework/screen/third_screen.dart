@@ -46,7 +46,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
         ),
         floatingActionButton: FlatButton.icon(
           shape: RoundedRectangleBorder(
-              borderRadius: new BorderRadius.circular(18.0),
+              borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.red)),
           color: Colors.red,
           icon: Text(" - "),

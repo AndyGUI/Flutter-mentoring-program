@@ -1,28 +1,36 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mentoring_programm/scoped_model/model/counter_model.dart';
-import 'package:flutter_mentoring_programm/scoped_model/screen/third_screen.dart';
-import 'package:scoped_model/scoped_model.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_mentoring_programm/bloc_advanced/bloc/counter/count_evens.dart';
+import 'package:flutter_mentoring_programm/bloc_advanced/bloc/counter/counter_model.dart';
+import 'package:flutter_mentoring_programm/bloc_advanced/screen/third_screen.dart';
 
 class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Basic arch -> Second screen"),
+        title: Text("Advanced bloc arch -> Second screen"),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            ScopedModelDescendant<CounterModel>(
-              builder: (context, child, model) => Text(
-                '${model.counter ?? 0}',
-                style: Theme.of(context).textTheme.display1,
-              ),
+            BlocBuilder<CounterBloc, int>(
+              builder: (context, count) {
+                return Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      'You have pushed the button this many times:',
+                    ),
+                    Text(
+                      '$count',
+                      style: Theme.of(context).textTheme.display1,
+                    ),
+                  ],
+                );
+              },
             ),
             SizedBox(height: 20),
             CupertinoButton(
@@ -44,7 +52,8 @@ class SecondScreen extends StatelessWidget {
             color: Colors.red,
             icon: Icon(Icons.add),
             label: Text('Add 2 '),
-            onPressed: () => CounterModel.of(context).add2ToCounter(),
+            onPressed: () => BlocProvider.of<CounterBloc>(context)
+                .add(CounterIncrementBy2Event()),
           ),
           SizedBox(
             width: 24,
@@ -56,7 +65,8 @@ class SecondScreen extends StatelessWidget {
             color: Colors.red,
             icon: Icon(Icons.close),
             label: Text('Multiply by 2 '),
-            onPressed: () => CounterModel.of(context).multiplyBy2Counter(),
+            onPressed: () => BlocProvider.of<CounterBloc>(context)
+                .add(CounterMultiplyBy2Event()),
           ),
         ],
       ),

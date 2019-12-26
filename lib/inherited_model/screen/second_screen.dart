@@ -36,7 +36,7 @@ class SecondScreen extends StatelessWidget {
         children: <Widget>[
           FlatButton.icon(
             shape: RoundedRectangleBorder(
-                borderRadius: new BorderRadius.circular(18.0),
+                borderRadius: BorderRadius.circular(18.0),
                 side: BorderSide(color: Colors.red)),
             color: Colors.red,
             icon: Icon(Icons.add),
@@ -48,7 +48,7 @@ class SecondScreen extends StatelessWidget {
           ),
           FlatButton.icon(
             shape: RoundedRectangleBorder(
-                borderRadius: new BorderRadius.circular(18.0),
+                borderRadius: BorderRadius.circular(18.0),
                 side: BorderSide(color: Colors.red)),
             color: Colors.red,
             icon: Icon(Icons.close),
