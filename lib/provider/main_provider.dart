@@ -13,8 +13,8 @@ void main() => runApp(
           ),
 
           /// Can be add more providers.
-//    Provider<Counter>(create: (_) => Counter()),
-//    Provider<Counter>(create: (_) => Counter()),
+          ///    Provider<Counter>(create: (_) => Counter()),
+          ///    Provider<Counter>(create: (_) => Counter()),
         ],
         child: MyApp(),
       ),

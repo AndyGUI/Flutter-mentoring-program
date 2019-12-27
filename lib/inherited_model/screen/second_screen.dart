@@ -10,7 +10,7 @@ class SecondScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Basic arch -> Second screen"),
+        title: Text("Inherited_model  -> Second screen"),
       ),
       body: Center(
         child: Column(

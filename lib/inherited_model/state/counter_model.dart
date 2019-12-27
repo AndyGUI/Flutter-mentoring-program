@@ -8,7 +8,7 @@ class CounterState {
 
 class CounterStateContainer extends StatefulWidget {
   final Widget child;
-  final CounterState counterState = CounterState();
+  final counterState = CounterState();
 
   CounterStateContainer({@required this.child});
 

@@ -23,8 +23,10 @@ Stream<dynamic> someFancyEpic(
 }
 
 _showSnack(_) {
-  scaffoldKey.currentState.showSnackBar(SnackBar(
-    duration: Duration(milliseconds: 789),
-    content: Text("Hey from the snackbar!"),
-  ));
+  scaffoldKey.currentState.showSnackBar(
+    SnackBar(
+      duration: Duration(milliseconds: 789),
+      content: Text("Hey from the snackbar!"),
+    ),
+  );
 }

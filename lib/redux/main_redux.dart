@@ -11,9 +11,10 @@ void main() {
   final store = Store<AppStore>(
     appReducer,
     initialState: AppStore.initial(),
-    middleware: [epicMiddleware],
+    middleware: [
+      epicMiddleware,
+    ],
   );
-
   runApp(MyApp(store));
 }
 

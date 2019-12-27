@@ -33,6 +33,5 @@
  
 ## Home task
 
-Read and watch the materials (at least (!) materials) and try to chose your 
-favorite 
-architecture :)
+Read and watch the materials (at least (!) materials) 
+and try to chose your favorite architecture :)

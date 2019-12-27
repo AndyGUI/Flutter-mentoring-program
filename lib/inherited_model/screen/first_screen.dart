@@ -6,10 +6,12 @@ import 'package:flutter_mentoring_programm/inherited_model/state/counter_model.d
 class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     final state = CounterStateContainer.of(context);
+
     return Scaffold(
       appBar: AppBar(
-        title: Text("Scoped_model arch -> First screen"),
+        title: Text("Inherited_model arch -> First screen"),
       ),
       body: Center(
         child: Column(

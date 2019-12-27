@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_mentoring_programm/bloc_advanced/bloc/counter'
     '/count_evens.dart';
 import 'package:flutter_mentoring_programm/bloc_advanced/bloc/counter'
-    '/counter_model.dart';
+    '/counter_bloc.dart';
 import 'package:flutter_mentoring_programm/bloc_advanced/bloc/theme/theme_bloc.dart';
 import 'package:flutter_mentoring_programm/bloc_advanced/bloc/theme/theme_evens.dart';
 

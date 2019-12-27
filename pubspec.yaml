@@ -20,6 +20,7 @@ dependencies:
   flutter:
     sdk: flutter
   scoped_model: ^1.0.1
+
   provider: ^4.0.0
 
   redux: 4.0.0

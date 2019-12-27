@@ -9,7 +9,7 @@ class ThirdScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Basic arch -> Third screen"),
+        title: Text("Inherited_model  -> Third screen"),
       ),
       body: Center(
         child: Column(

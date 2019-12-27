@@ -7,7 +7,9 @@ import 'package:provider/provider.dart';
 class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     final state = Provider.of<Counter>(context);
+
     return Scaffold(
       appBar: AppBar(
         title: Text("Scoped_model arch -> First screen"),
