@@ -18,7 +18,8 @@ class ShowCase extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const SpinKitRotatingCircle(color: Colors.greenAccent),
+                const SpinKitRotatingCircle(color: Colors.red,
+                  duration: Duration(seconds: 5),),
                 const SpinKitRotatingPlain(color: Colors.white),
                 const SpinKitChasingDots(color: Colors.white),
               ],
