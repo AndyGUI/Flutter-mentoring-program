@@ -1,38 +1,23 @@
-# Audience
+# MODULE 13 
 Front-end or Mobile Engineers, D2-D3+
 
-# Necessary knowledge
-- Proficiency with at least one of the languages:
-    JavaScript, Dart, Java, Kotlin, Swift;
-- English level A2 and higher
+# Communication with a native platform; Flutter testing
 
-## Course Goal
-Prepare mentees for production activities on projects
-using the Flutter framework for building mobile applications.
-During the program:
-- Mentee schedules meetings, proposes agenda,
-    suggests cases for discussions with Mentor.
-- Mentee spends enough time to complete the topics on time
-    (at least 6 hours a week) and does all mandatory home tasks
-    for the program to be completed.
-- Both Mentor and Mentee are to give their feedback
-    during the program and after its completion.
+1. Communication with a native platform
+ - https://flutter.dev/docs/development/platform-integration/platform-channels?tab=ios-channel-swift-tab
+ - (*) https://stablekernel.com/flutter-platform-channels-quick-start/
+ - https://medium.com/flutter/flutter-platform-channels-ce7f540a104e
+ 
+ 2. Flutter testing (Unit-, Widget- testing)
+ - https://flutter.dev/docs/cookbook/testing/unit/introduction
+ - https://flutter.dev/docs/cookbook/testing/unit/mocking
+ - https://flutter.dev/docs/cookbook/testing/widget/finders
+ - https://www.youtube.com/watch?v=h0IbAIHAwnk
+ - https://www.youtube.com/watch?v=75i5VmTI6A0
+ - (*) https://flutter.dev/docs/cookbook/testing/widget/tap-drag
+ - (RU) https://habr.com/ru/company/surfstudio/blog/468631/
+ - https://www.filledstacks.com/post/better-unit-tests-in-flutter-using-abstraction/
+ 
 
-## Description of the framework.
-
-Flutter is an app SDK for building high-performance,
-high-fidelity apps for iOS, Android, and web (tech preview) from a single codebase.
-
-##  What are some advantages of Flutter? It helps you:
-- Be highly productive
-- Develop for iOS and Android from a single codebase
-- Do more with less code, even on a single OS,
-    with a modern, expressive language and a declarative approach
-- Prototype and iterate easily
-- Experiment by changing code and reloading as your app runs (with hot reload)
-- Fix crashes and continue debugging from where the app left off
-- Create beautiful, highly customized user experiences
-- Benefit from a rich set of Material Design and Cupertino
-    (iOS-flavor) widgets built using Flutter’s own framework
-- Realize custom, beautiful, brand-driven designs,
-    without the limitations of OEM widget sets
+## Home task 
+Read and watch the materials above and examples in a codebase.
