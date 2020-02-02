@@ -12,7 +12,7 @@ class AnimatedBuilderDemo extends StatefulWidget {
 
 class _AnimatedBuilderDemoState extends State<AnimatedBuilderDemo>
     with SingleTickerProviderStateMixin {
-  static const Color beginColor = Colors.deepPurple;
+  static const Color beginColor = Colors.yellow;
   static const Color endColor = Colors.deepOrange;
   Duration duration = Duration(milliseconds: 800);
   AnimationController controller;

@@ -1,38 +1,26 @@
-# Audience
-Front-end or Mobile Engineers, D2-D3+
+# Module 14  
 
-# Necessary knowledge
-- Proficiency with at least one of the languages:
-    JavaScript, Dart, Java, Kotlin, Swift;
-- English level A2 and higher
-
-## Course Goal
-Prepare mentees for production activities on projects
-using the Flutter framework for building mobile applications.
-During the program:
-- Mentee schedules meetings, proposes agenda,
-    suggests cases for discussions with Mentor.
-- Mentee spends enough time to complete the topics on time
-    (at least 6 hours a week) and does all mandatory home tasks
-    for the program to be completed.
-- Both Mentor and Mentee are to give their feedback
-    during the program and after its completion.
-
-## Description of the framework.
-
-Flutter is an app SDK for building high-performance,
-high-fidelity apps for iOS, Android, and web (tech preview) from a single codebase.
-
-##  What are some advantages of Flutter? It helps you:
-- Be highly productive
-- Develop for iOS and Android from a single codebase
-- Do more with less code, even on a single OS,
-    with a modern, expressive language and a declarative approach
-- Prototype and iterate easily
-- Experiment by changing code and reloading as your app runs (with hot reload)
-- Fix crashes and continue debugging from where the app left off
-- Create beautiful, highly customized user experiences
-- Benefit from a rich set of Material Design and Cupertino
-    (iOS-flavor) widgets built using Flutter’s own framework
-- Realize custom, beautiful, brand-driven designs,
-    without the limitations of OEM widget sets
+## Animations
+ - https://flutter.dev/docs/development/ui/animations
+ - https://flutter.dev/docs/development/ui/animations/overview
+ - https://flutter.dev/docs/development/ui/animations/tutorial
+ - (!!! 5 videos in a list) https://www.youtube.com/watch?v=IVTjpW3W33s&list=PLjxrf2q8roU2v6UqYlt_KPaXlnjbYySua
+ - (!!!) https://www.didierboelens.com/2018/06/animations-in-flutter---easy-guide---tutorial/
+ - Widgets of the week:
+    - https://www.youtube.com/watch?v=yI-8QHpGIP4&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=5
+    - https://www.youtube.com/watch?v=9hltevOHQBw&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=6
+    - https://www.youtube.com/watch?v=rLwWVbv3xDQ&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=8
+    - https://www.youtube.com/watch?v=pK738Pg9cxc&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=14
+    - https://www.youtube.com/watch?v=Be9UH1kXFDw&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=18
+    - https://www.youtube.com/watch?v=9z_YNlRlWfA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=24
+    - https://www.youtube.com/watch?v=N-RiyZlv8v8&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=28
+    - https://www.youtube.com/watch?v=ZtfItHwFlZ8&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=33
+    - https://www.youtube.com/watch?v=pJcbh8pbvJs&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=38
+    - https://www.youtube.com/watch?v=2W7POjFb88g&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=44
+    - https://www.youtube.com/watch?v=hC3s2YdtWt8&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=45
+    - https://www.youtube.com/watch?v=PY2m0fhGNz4&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=46
+    - https://www.youtube.com/watch?v=QZAvjqOqiLY&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=51
+    - https://www.youtube.com/watch?v=PGK2UUAyE54&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=60
+    - https://www.youtube.com/watch?v=l9uHB8VXZOg&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=65
+    
+    

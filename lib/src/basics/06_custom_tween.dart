@@ -45,6 +45,7 @@ class _CustomTweenDemoState extends State<CustomTweenDemo>
         actions: [
           MaterialButton(
             child: Text(
+
               controller.status == AnimationStatus.completed
                   ? 'Delete Essay'
                   : 'Write Essay',
